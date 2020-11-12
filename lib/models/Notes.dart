@@ -1,4 +1,3 @@
-import 'dart:async';
 
 class Note {
   String title;

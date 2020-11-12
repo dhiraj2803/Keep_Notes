@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:notes/models/Notes.dart';
 import 'package:notes/models/NotesProvider.dart';
-import 'package:notes/models/Notes.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 
@@ -14,7 +13,13 @@ class NoteList extends StatelessWidget {
         if (snapshot.data == null) {
           return Container(
             child: Center(
-              child: Text("Loading..."),
+              child: Text("Loading...",
+                style: TextStyle(
+                color: Colors.black,
+                fontFamily: 'Dogfight',
+                fontSize: 30.0,
+                fontWeight: FontWeight.w700,
+              ),),
             ),
           );
         } else {

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:notes/screens/Home_Screens.dart';
 import 'package:notes/models/NotesProvider.dart';
-import 'package:hexcolor/hexcolor.dart';
+
 
 void main() {
   runApp(MyApp());
