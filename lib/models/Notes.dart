@@ -1,4 +1,3 @@
-
 class Note {
   String title;
   String description;

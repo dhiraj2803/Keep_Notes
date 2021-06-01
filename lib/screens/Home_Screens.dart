@@ -5,7 +5,6 @@ import 'package:notes/models/NotesProvider.dart';
 import 'package:provider/provider.dart';
 import '../models/NotesProvider.dart';
 
-
 // ignore: camel_case_types
 class Home_Screen extends StatelessWidget {
   @override
@@ -65,7 +64,6 @@ class Home_Screen extends StatelessWidget {
     );
   }
 }
-
 
 showAlertDialog(BuildContext context) {
   TextEditingController _Title = TextEditingController();

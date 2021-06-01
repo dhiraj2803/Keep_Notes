@@ -13,13 +13,15 @@ class NoteList extends StatelessWidget {
         if (snapshot.data == null) {
           return Container(
             child: Center(
-              child: Text("Loading...",
+              child: Text(
+                "Loading...",
                 style: TextStyle(
-                color: Colors.black,
-                fontFamily: 'Dogfight',
-                fontSize: 30.0,
-                fontWeight: FontWeight.w700,
-              ),),
+                  color: Colors.black,
+                  fontFamily: 'Dogfight',
+                  fontSize: 30.0,
+                  fontWeight: FontWeight.w700,
+                ),
+              ),
             ),
           );
         } else {
@@ -41,7 +43,9 @@ class CardList extends StatelessWidget {
   final Note notes;
   int index;
   String id;
+
   CardList(this.notes, this.index, this.id);
+
   @override
   Widget build(BuildContext context) {
     return Padding(
